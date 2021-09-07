@@ -10,9 +10,7 @@ using Test.Model;
 namespace Test.Controllers
 {
     [ApiVersion("1.0")]
-    //[Route("api/[controller]")]
     [Route("api/v{version:apiVersion}/department")]
-    //[Route("[controller]")]
     [ApiController]
     public class DepartmentController : ControllerBase
     {

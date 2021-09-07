@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Razu\\source\\repos\\Test\\Test\\Test.csproj": {}
+    "D:\\TFS\\Test\\Test\\Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Razu\\source\\repos\\Test\\Test\\Test.csproj": {
+    "D:\\TFS\\Test\\Test\\Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Razu\\source\\repos\\Test\\Test\\Test.csproj",
+        "projectUniqueName": "D:\\TFS\\Test\\Test\\Test.csproj",
         "projectName": "Test",
-        "projectPath": "C:\\Users\\Razu\\source\\repos\\Test\\Test\\Test.csproj",
-        "packagesPath": "C:\\Users\\Razu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Razu\\source\\repos\\Test\\Test\\obj\\",
+        "projectPath": "D:\\TFS\\Test\\Test\\Test.csproj",
+        "packagesPath": "C:\\Users\\R041803052\\.nuget\\packages\\",
+        "outputPath": "D:\\TFS\\Test\\Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Razu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\R041803052\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -29,7 +29,6 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -41,7 +40,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.AspNetCore.Mvc.Versioning": {
               "target": "Package",
@@ -70,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
