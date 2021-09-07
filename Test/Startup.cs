@@ -1,3 +1,4 @@
+using DLL;
 using DLL.DBContext;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -40,8 +41,7 @@ namespace Test
                 // We are giving the default version of 1.0 to the api
                 opt.DefaultApiVersion = ApiVersion.Default; // new ApiVersion(1, 0);
             });
-            services.AddDbContext<ApplicationDbContext>(options =>
-            options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            DLLDependency.AllDependency(services, Configuration);
         }
 
         private void SetUpSgagger(IServiceCollection services)

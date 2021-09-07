@@ -9,3 +9,16 @@ D:\TFS\Test\DLL\obj\Debug\netcoreapp3.1\DLL.pdb
 D:\TFS\Test\DLL\bin\Debug\netcoreapp3.1\DLL.runtimeconfig.json
 D:\TFS\Test\DLL\bin\Debug\netcoreapp3.1\DLL.runtimeconfig.dev.json
 D:\TFS\Test\DLL\obj\Debug\netcoreapp3.1\DLL.genruntimeconfig.cache
+C:\Users\Razu\source\repos\Test\DLL\bin\Debug\netcoreapp3.1\DLL.deps.json
+C:\Users\Razu\source\repos\Test\DLL\bin\Debug\netcoreapp3.1\DLL.runtimeconfig.json
+C:\Users\Razu\source\repos\Test\DLL\bin\Debug\netcoreapp3.1\DLL.runtimeconfig.dev.json
+C:\Users\Razu\source\repos\Test\DLL\bin\Debug\netcoreapp3.1\DLL.dll
+C:\Users\Razu\source\repos\Test\DLL\bin\Debug\netcoreapp3.1\DLL.pdb
+C:\Users\Razu\source\repos\Test\DLL\obj\Debug\netcoreapp3.1\DLL.csproj.AssemblyReference.cache
+C:\Users\Razu\source\repos\Test\DLL\obj\Debug\netcoreapp3.1\DLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Razu\source\repos\Test\DLL\obj\Debug\netcoreapp3.1\DLL.AssemblyInfoInputs.cache
+C:\Users\Razu\source\repos\Test\DLL\obj\Debug\netcoreapp3.1\DLL.AssemblyInfo.cs
+C:\Users\Razu\source\repos\Test\DLL\obj\Debug\netcoreapp3.1\DLL.csproj.CoreCompileInputs.cache
+C:\Users\Razu\source\repos\Test\DLL\obj\Debug\netcoreapp3.1\DLL.dll
+C:\Users\Razu\source\repos\Test\DLL\obj\Debug\netcoreapp3.1\DLL.pdb
+C:\Users\Razu\source\repos\Test\DLL\obj\Debug\netcoreapp3.1\DLL.genruntimeconfig.cache

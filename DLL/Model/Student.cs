@@ -5,9 +5,10 @@ using System.Threading.Tasks;
 
 namespace Test.Model
 {
-    public class Department
+    public class Student
     {
+        public int StudentId { get; set; }
         public string Name { get; set; }
-        public string Code { get; set; }
+        public string Email { get; set; }
     }
 }
