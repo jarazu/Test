@@ -1,7 +1,9 @@
+using DLL.DBContext;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -38,6 +40,8 @@ namespace Test
                 // We are giving the default version of 1.0 to the api
                 opt.DefaultApiVersion = ApiVersion.Default; // new ApiVersion(1, 0);
             });
+            services.AddDbContext<ApplicationDbContext>(options =>
+            options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
         }
 
         private void SetUpSgagger(IServiceCollection services)
